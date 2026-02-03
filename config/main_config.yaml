@@ -1,0 +1,4 @@
+run_prediction_params:
+  model_params: 'example'
+  raw_data_name: 'example'
+  pred_data_name: 'example'
