@@ -165,9 +165,22 @@ __pycache__/
 # Ignore feather
 *.feather
 
-# Ignore logs
-logs/
+# Ignore logs content but not the directory itself
+logs/*
+!logs/.gitignore
 results/
+
+# Ignore img content but not the directory itself
+img/*
+!img/.gitignore
+
+# Ignore data content but not the directory itself
+data/*
+!data/.gitignore
+
+# Ignore model content but not the directory itself
+model/*
+!model/.gitignore
 
 # Ignore large model
 *.bin
